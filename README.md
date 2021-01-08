@@ -61,6 +61,11 @@ npm i sample-pilet-service -g
 
 This will enable a new command `sample-pilet-service` to be invoked on the command line shell.
 
+## Build Docker Image
+```sh
+docker build -t alpine/pilet-service .
+```
+
 ## License
 
 Piral is released using the MIT license. For more information see the [license file](./LICENSE).
